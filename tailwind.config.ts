@@ -14,6 +14,9 @@ export default {
 				"rammetto-one": ["var(--rammetto-one)"],
 			},
 			colors: {
+				theme: {
+					primary: "#191A1B",
+				},
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {
