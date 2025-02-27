@@ -51,7 +51,7 @@ const RootLayout = ({
 	return (
 		<html lang="en">
 			<body className={`${plusJakartaSans.className} ${rammettoOne.variable} antialiased`}>
-				{children}
+				<main>{children}</main>
 			</body>
 		</html>
 	);

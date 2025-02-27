@@ -1,6 +1,7 @@
 import AnimatedText from "@/components/AnimatedText";
 import AnimatedHeading from "@/components/AnimatedHeading";
 import SocialLink from "@/components/SocialLink";
+import Dragger from "@/components/Dragger";
 
 export default function Home() {
 	return (
@@ -20,6 +21,13 @@ export default function Home() {
 				</header>
 
 				<SocialLink />
+
+				<section>
+					<div className="font-rammetto-one text-xl">
+						<AnimatedHeading delay={1}>Work</AnimatedHeading>
+					</div>
+					<Dragger />
+				</section>
 			</div>
 		</>
 	);

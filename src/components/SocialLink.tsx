@@ -1,9 +1,10 @@
+import { socialLinks } from "@/constants/socialLinks";
 import SocialItem from "./SocialItem";
 
 const SocialLink = () => {
 	return (
 		<div className="flex items-center gap-4">
-			<SocialItem href="https://www.linkedin.com/in/naufal-firman/" delay={0.3}>
+			<SocialItem href={socialLinks.linkedin.url} delay={0.3}>
 				<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 24 24">
 					<path
 						fill="currentColor"
@@ -12,7 +13,7 @@ const SocialLink = () => {
 				</svg>
 			</SocialItem>
 
-			<SocialItem href="mailto:naufalfirman098@gmail.com" delay={0.4}>
+			<SocialItem href={socialLinks.email.url} delay={0.4}>
 				<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
 					<path
 						fill="currentColor"
@@ -21,10 +22,7 @@ const SocialLink = () => {
 				</svg>
 			</SocialItem>
 
-			<SocialItem
-				href="https://glints.com/api/s3/download?label=resume&key=33b87a521cdcd8a8a26493e285cbd3be.pdf"
-				delay={0.5}
-			>
+			<SocialItem href={socialLinks.resume.url} delay={0.5}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width={28}
@@ -38,7 +36,7 @@ const SocialLink = () => {
 				</svg>
 			</SocialItem>
 
-			<SocialItem href="https://github.com/naufalF21" delay={0.6}>
+			<SocialItem href={socialLinks.github.url} delay={0.6}>
 				<svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24">
 					<path
 						fill="currentColor"
