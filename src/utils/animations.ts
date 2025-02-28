@@ -52,7 +52,7 @@ export const springTextHeading = (delay?: number) => ({
 		y: 15,
 	},
 	animate: {
-		opacity: 1,
+		opacity: 1.4,
 		y: 0,
 	},
 });
