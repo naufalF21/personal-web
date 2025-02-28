@@ -5,7 +5,8 @@ export const easeInOut = (delay?: number) => ({
 		ease: "easeInOut",
 	},
 	initial: { opacity: 0, y: 0 },
-	animate: { opacity: 1, y: 0 },
+	whileInView: { opacity: 1, y: 0 },
+	viewport: { once: true },
 });
 
 export const springWhileHover = {

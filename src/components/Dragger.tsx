@@ -17,7 +17,7 @@ const Dragger = () => {
 			dragControls={dragControls}
 			drag="x"
 			dragConstraints={{ left: -300, right: 300, top: 0, bottom: 0 }}
-			dragElastic={0.1}
+			dragElastic={0.2}
 			style={{
 				cursor: "grab",
 				userSelect: "none",

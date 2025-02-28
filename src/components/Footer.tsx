@@ -9,7 +9,7 @@ const Footer = () => {
 	});
 
 	return (
-		<div className="bg-theme-primary text-white text-sm font-medium">
+		<div className="bg-theme-primary text-white text-sm font-medium mt-10">
 			<div className="w-[55%] flex mx-auto justify-between py-6 items-center">
 				<div className="flex gap-2">
 					<span>&copy; {currentYear}</span>

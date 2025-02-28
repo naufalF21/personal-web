@@ -43,16 +43,20 @@ export default function Home() {
 							<h2>Experiments</h2>
 						</AnimatedHeading>
 					</div>
-					<Experiments
-						company="Algostudio"
-						year="2023"
-						summary="Develop a employee attendance web application. Collaborate with	the design team to implement an attractive and responsive user interface design."
-					/>
-					<Experiments
-						company="Satu Atap Akademik"
-						year="2024"
-						summary="Implement features that fit the needs of the platform, such as course management system, articles, and admin dashboard."
-					/>
+					<AnimatedText delay={0.6}>
+						<div className="flex flex-col gap-5">
+							<Experiments
+								company="Algostudio"
+								year="2023"
+								summary="Develop a employee attendance web application. Collaborate with	the design team to implement an attractive and responsive user interface design."
+							/>
+							<Experiments
+								company="Satu Atap Akademik"
+								year="2024"
+								summary="Implement features that fit the needs of the platform, such as course management system, articles, and admin dashboard."
+							/>
+						</div>
+					</AnimatedText>
 				</section>
 			</div>
 		</>
