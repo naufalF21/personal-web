@@ -9,9 +9,14 @@ export default function Home() {
 			<div className="flex flex-col gap-6">
 				<header>
 					<div className="font-rammetto-one text-[32px] flex flex-col mb-3">
-						<AnimatedHeading delay={0.1}>Naufal</AnimatedHeading>
-						<AnimatedHeading delay={0.2}>Firman</AnimatedHeading>
+						<AnimatedHeading delay={0.1}>
+							<h2 className="leading-10">Naufal</h2>
+						</AnimatedHeading>
+						<AnimatedHeading delay={0.2}>
+							<h2 className="leading-10">Firman</h2>
+						</AnimatedHeading>
 					</div>
+
 					<AnimatedText delay={0.6}>
 						<h1 className="block text-base max-w-[35ch] pr-8 font-bold leading-6">
 							I’m a front-end developer who wants to help make the internet a more
@@ -24,7 +29,9 @@ export default function Home() {
 
 				<section>
 					<div className="font-rammetto-one text-xl">
-						<AnimatedHeading delay={1}>Work</AnimatedHeading>
+						<AnimatedHeading delay={1}>
+							<h2>Work</h2>
+						</AnimatedHeading>
 					</div>
 					<Dragger />
 				</section>
